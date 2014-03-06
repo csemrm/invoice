@@ -1,0 +1,86 @@
+body{
+	background:#E0E6E6;
+}
+#login-box {
+	width:333px;
+	color: #333;
+	font: 12px Arial, Helvetica, sans-serif;
+	background:#fff;
+	margin:auto;
+	padding:30px;
+	border: solid 1px #fff;
+	margin-top:120px;
+	box-shadow:0 0 7px #CCCCCC;
+}
+#login-box img {
+	border:none;
+}
+#login-box h3 {
+	padding:0;
+	margin:0;
+	color: #5C5C5C;
+	font: bold 25px "Calibri", Arial;
+	text-align:center;
+}
+#login-box-name {
+	float: left;
+	display:inline;
+	width:80px;
+	text-align: right;
+	padding: 10px 10px 0 0;
+	margin:0 0 7px 0;
+}
+#login-box-field {
+	float: left;
+	display:inline;
+	width:230px;
+	margin:0;
+	margin:0 0 7px 0;
+}
+.form-login {
+	width: 205px;
+	padding: 6px 4px 6px 3px;
+	border: 1px solid #D3D3D3;
+	background-color:#FFF;
+	font-size: 16px;
+	color: #333;
+}
+.form-login:hover{
+	background:#fff;
+	border: solid 1px #5a97eb;
+	transition:all 500ms ease 0s;
+}
+.login-box-options a{
+	clear:both;
+	font-size:13px;
+	text-decoration:none;
+}
+.login_button{
+	margin-left:90px;
+	background:#0c62d4;
+	padding:8px;
+	border:none;
+	text-decoration:none;
+	color:#fff;
+	cursor:pointer;
+	text-transform:uppercase;
+	margin-top:10px;
+}
+.login_button:hover{
+	background:#0c3669;
+	transition:all 500ms ease 0s;
+}
+.form-login:focus{
+	background:#FFF;
+	border: solid 1px #5a97eb;
+	transition:all 500ms ease 0s;
+}
+
+
+
+
+
+
+
+
+

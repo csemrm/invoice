@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0px;
+	padding:0px;
+}
+body {
+	background:#e0e6e6;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.contener {
+	margin:auto;
+	width:980px;
+	box-shadow: 0 0 5px #CCCCCC;
+}
+.header {
+	background:#0384af;
+	padding:10px;
+	overflow:hidden;
+	text-align:right;
+	text-transform:uppercase;
+}
+.header ul li {
+	display:inline-block;
+	padding-left:15px;
+}
+.header ul li a {
+	color:#FFF;
+	text-decoration:none;
+}
+.company_name {
+	padding:20px;
+	background:#FFF;
+	margin-bottom:15px;
+	box-shadow: 0 0 5px #ccc;
+	font-size:13px;
+	color:#333;
+	line-height:22px;
+}
+.company_name table tr td input[type="text"], .company_name table tr td textarea {
+	border: solid 1px #afc2c5;
+	padding:5px;
+	margin-bottom:15px;
+	width:100px;
+	vertical-align:bottom;
+}
+.company_name table tr td textarea{
+	width:220px;
+	height:80px;	
+}
+.company_name table tr td input[type="text"]:focus, .company_name table tr td input[type="text"]:hover {
+	background:#f4f6f6;
+	transition: all 300ms ease 0s;
+	border: solid 1px #0897c6;
+	box-shadow: 2px 1px 3px #CAD3D4 inset;
+}
+.company_name h1 {
+	font-size:20px;
+	color:#0384af;
+	margin-bottom:10px;
+}
+.company_name_2 {
+	margin-bottom:0px;
+	box-shadow:none;
+}
+.company_name_1 table tr th {
+	background:#078db9;
+	border-right: solid 1px #fff;
+	color:#fff;
+	text-align:center;
+	font-size:12px;
+}
+.company_name_1 table tr td {
+	border-right: solid 1px #FFF;
+}
+.company_name_1 table tr td input {
+	margin-top:10px;
+}
+
+.company_name_1 tr:nth-child(odd) {
+ background:#d9edf7;
+ background: #d9edf7 fixed center;
+}
+.company_name_1 tr:nth-child(even) {
+ background:#edf2f5;
+}
+.total_invoice {
+	text-align:center;
+	padding:5px;
+	background:#d2dddd;
+}
+
+.add, .delete{
+    cursor: pointer;
+    
+}
