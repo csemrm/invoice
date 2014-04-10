@@ -64,9 +64,8 @@
             <tbody id="item_table">
                 <?php
                 $key = 0;
-                if (is_array($form['item']) && array_key_exists('item', $form)) {
+                if (isset($form['item']) || array_key_exists('item', $form)) {
                     foreach ($form['item'] as $key => $item):
-                        
                         ?>
                         <tr id="<?= $key ?>">
                             <td  width="190" align="center"><input type="text" name="item[<?= $key ?>][code]" required value="<?= !empty($item['code']) ? $item['code'] : '' ?>"></td>
@@ -123,7 +122,14 @@
     </div>
     <div class="company_name">
         <input type="hidden" name="id" value="<?= !empty($form['id']) ? $form['id'] : '' ?>"/>
-        <input type="submit" name="submit" value="submit"/>
+        <input type="submit" name="submit" value="submit" style="padding:5px;
+               margin-bottom:10px;
+               margin-top:10px;
+               background:#009AAB;
+               color:#FF265C;
+               border:none;
+               margin-right:20px;
+               cursor:pointer; "/>
     </div>
 </div>
 </form>

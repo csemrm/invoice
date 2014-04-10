@@ -21,8 +21,8 @@
                 <td align="center"><?= $invoice['payment'] ?> </td>
                 <td align="center"><?= $invoice['ref_ddt_document_transport'] ?> </td>
 
-                <td height="35" width="100" align="center"> <a title="edit" href="<?= site_url('invoice/edit/' . $invoice['id']) ?>"><img src="/assets/images/edit.png" alt="img" width="16" height="16" border="0"></a>
-                    <a title="View" href="<?= site_url('invoice/view/' . $invoice['id']) ?>"><img src="/assets/images/view.png" alt="img" width="16" height="16" border="0"></a>   <a title="delete" href="<?= site_url('invoice/delete/' . $invoice['id']) ?>"><img src="/assets/images/delete.png" alt="img" width="16" height="16" border="0"></a></td>
+                <td height="35" width="100" align="center"> <a title="edit" href="<?= site_url('invoice/edit/' . $invoice['id']) ?>"><img src="<?php echo base_url() ?>/assets/images/edit.png" alt="img" width="16" height="16" border="0"></a>
+                    <a title="View" href="<?= site_url('invoice/view/' . $invoice['id']) ?>"><img src="<?php echo base_url()?>/assets/images/view.png" alt="img" width="16" height="16" border="0"></a>   <a title="delete" href="<?= site_url('invoice/delete/' . $invoice['id']) ?>"><img src="<?php echo base_url();?>/assets/images/delete.png" alt="img" width="16" height="16" border="0"></a></td>
             </tr>
         <?php endforeach; ?>
 

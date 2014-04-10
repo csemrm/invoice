@@ -1,99 +1,224 @@
  
-<div class="company_name company_name_2">
-    <table cellpadding="0" cellspacing="0">
-        <tr>
-            <td width="700"><table cellpadding="0" cellspacing="0">
-                    <tr>
-                        <td width="350">Numero fattura/invoice Number :</td>
-                        <td width="400" align="left" valign="bottom">
+<!-- start contener-->
+<div class="contener" style="box-shadow: 0 0 5px #ccc; width:980px; margin:auto;"> 
 
-                            <table cellpadding="0" cellspacing="0" width="100%">
-                                <tr>
-                                    <td width="70"><strong><?= !empty($form['invoice_number']) ? $form['invoice_number'] : '' ?></strong></td>
-                                    <td width="50" align="left" valign="top"> del/of </td>
-                                    <td width="100" align="left"><strong><?= !empty($form['del_of']) ? $form['del_of'] : '' ?></strong></td>
-                                </tr>
-                            </table>
+    <!-- start body contener-->
 
-                        </td>
+    <div class="body_contenet">
+
+        <div class="company_name company_name_2" style="padding:20px; background:#FFF; font-size:13px;  color:#333; line-height:22px; width:980px; margin:auto;">
+            <table cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                    <td style=" border: solid 1px #C3C9C9; padding:10px; border-right:none;" width="400">
+                        <div style="border-bottom: solid 1px #C3C9C9;"><h1>Dutta  Fashion S.r.l</h1>
+                            Sede Operativa 			
+                            <p> Via Adda, 13/B</p>
+                            <p>  20863 Concorezzo (MB)	</p>		
+                            <p> Cell: 327.57.66.420	</p>		
+                            <p>  info@duttafashion.it	</p>		
+                            <p>  www.duttafashion.it			
+                                P. I.V.A. e C.F. IT 08544880969	</p>		
+                            "Nr. REA MI - 2032599)</div>
+                        <div style="border-bottom: solid 1px #C3C9C9; padding:10px;"><strong>Luogo di Destinzione</strong> </div>	
+                    </td>
+                    <td valign="top" style=" border: solid 1px #C3C9C9; padding:10px;" align="left" width="400">
+                        <div style="border-bottom: solid 1px #C3C9C9; padding:5px;"><strong>Luogo di Destinzione :</strong> We are excited about what lies ahead.</div>	
+                        <div style="border-bottom: solid 1px #C3C9C9; padding:5px;"><strong>D.D.T. Nr :</strong> .</div>	
+                        <div style="border-bottom: solid 1px #C3C9C9; padding:5px;"><strong>Del :</strong>  </div>	
+                        <div style="border-bottom: solid 1px #C3C9C9; padding:5px;"><strong>Spett.le :</strong> </div>	
+                        <div style="border-bottom: solid 1px #C3C9C9; padding:5px;"><strong>P. I.V.A. e C.F :</strong> </div>	
+                    </td>
+                </tr>
+            </table>
 
 
-                    </tr>
-                    <tr>
-                        <td width="350">Codice cliente/customer code :</td>
-                        <td align="left" width="400"><strong><?= !empty($form['customer_number']) ? $form['customer_number'] : '' ?></strong></td>
-                    </tr>
-                    <tr>
-                        <td width="350">Partita IVA/Codice fiscale - Vat number/tax code :</td>
-                        <td align="left" width="400"><strong><?= !empty($form['vat_tax_code']) ? $form['vat_tax_code'] : '' ?></strong></td>
-                    </tr>
-                </table></td>
-            <td width="250" align="left" valign="middle"><h3>Cliente</h3>
-                <?= !empty($form['customer_name']) ? $form['customer_name'] : '' ?>
-            </td>
-        </tr>
-    </table>
+        </div>
+
+
+        <div class="company_name company_name_2" style="padding:20px;  background:#FFF;  font-size:13px;  color:#333;  line-height:22px; width:980px; margin:auto;">
+            <table cellpadding="5" cellspacing="1" width="100%" style="margin-top:-15px; border: solid 1px #C3C9C9;">
+                <tr style="background:#078DB9; color:#fff;">
+                    <th>QuantitÃ /Nr.</th>
+                    <th>Descrizione dei Beni</th>
+                    <th>Articolo</th>
+                    <th>Marchio</th>
+                    <th>Composizione</th>
+                    <th>Colore</th>
+                    <th>Taglia</th>
+                </tr>
+              
+                <tr align="center" style="background:#E0E6E6;">
+                    <td>We are excited</td>
+                    <td> about what lies</td>
+                    <td>We are </td>
+                    <td> about what lies</td>
+                    <td>We are excited</td>
+                    <td> 45455</td>
+                    <td>We are excited</td>
+                </tr>
+                
+                 
+                <tr align="center" style="background:#E0E6E6;">
+                    <td>We are excited</td>
+                    <td> about what lies</td>
+                    <td>excited</td>
+                    <td> about what lies</td>
+                    <td>We are excited</td>
+                    <td> 45345</td>
+                    <td>We are excited</td>
+                </tr>
+                
+                <tr align="center" style="background:#E0E6E6;">
+                    <td>We are excited</td>
+                    <td> about what lies</td>
+                    <td>We are </td>
+                    <td> about what lies</td>
+                    <td>We are excited</td>
+                    <td> 5434534</td>
+                    <td>We are excited</td>
+                </tr>
+                
+                <tr align="center" style="background:#E0E6E6;">
+                    <td>We are excited</td>
+                    <td> about what lies</td>
+                    <td>We</td>
+                    <td> about what lies</td>
+                    <td>We are excited</td>
+                    <td> 3453453</td>
+                    <td>We are excited</td>
+                </tr>
+                
+                <tr align="center" style="background:#E0E6E6;">
+                    <td>We are excited</td>
+                    <td> about what lies</td>
+                    <td>excited</td>
+                    <td> about what lies</td>
+                    <td>We are excited</td>
+                    <td> 453453</td>
+                    <td>We are excited</td>
+                </tr>
+                
+                <tr align="center" style="background:#E0E6E6;">
+                    <td>We are excited</td>
+                    <td> about what lies</td>
+                    <td> are </td>
+                    <td> about what lies</td>
+                    <td>We are excited</td>
+                    <td> 4534535</td>
+                    <td>We are excited</td>
+                </tr>
+                 
+                <tr align="center" style="background:#E0E6E6;">
+                    <td>We are excited</td>
+                    <td> about what lies</td>
+                    <td> excited</td>
+                    <td> about what lies</td>
+                    <td>We are excited</td>
+                    <td> 45345534</td>
+                    <td>We are excited</td>
+                </tr>
+                
+                <tr align="center" style="background:#E0E6E6;">
+                    <td>We are excited</td>
+                    <td> about what lies</td>
+                    <td>are</td>
+                    <td> about what lies</td>
+                    <td>We are excited</td>
+                    <td> 53453</td>
+                    <td>We are excited</td>
+                </tr>
+                
+                <tr align="center" style="background:#E0E6E6;">
+                    <td>We are excited</td>
+                    <td> about what lies</td>
+                    <td>excited</td>
+                    <td> about what lies</td>
+                    <td>We are excited</td>
+                    <td> 453453</td>
+                    <td>We are excited</td>
+                </tr>
+               
+
+                <tr align="center" style="background:#E0E6E6;">
+                    <td></td>
+                    <td style="background:#078DB9; color:#fff;">QuantitÃ  Tot. Nr.</td>
+                    <td style="background:#078DB9; color:#fff;">Tot. Colli Nr.</td>
+                    <td></td>
+                    <td style="background:#078DB9; color:#fff;">Porto</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr align="left" style="background:#E0E6E6;">
+                    <td style="background:#078DB9; color:#fff;">Aspetto Esteriore dei Beni</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="background:#078DB9; color:#fff;">Causale del Trasporto</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr align="left" style="background:#E0E6E6;">
+                    <td style="background:#078DB9; color:#fff;">Trasporto a Cura del</td>
+                    <td></td>
+                    <td></td>
+                    <td style="background:#078DB9; color:#fff;">Vettore</td>
+                    <td> </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr align="left" style="background:#E0E6E6;">
+                    <td style="background:#078DB9; color:#fff;">Data e Ora Inizio Trasporto</td>
+                    <td></td>
+                    <td></td>
+                    <td style="background:#078DB9; color:#fff;">Firma del Vettore</td>
+                    <td> </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr align="left" style="background:#E0E6E6;">
+                    <td style="background:#078DB9; color:#fff;">Data e Ora Fine Trasporto</td>
+                    <td></td>
+                    <td></td>
+                    <td style="background:#078DB9; color:#fff;">Firma del Mittente</td>
+                    <td> </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr align="left" style="background:#E0E6E6;">
+                    <td style="background:#078DB9; color:#fff;">Firma del Destinatario</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td> </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr align="left" style="background:#E0E6E6;">
+                    <td style="background:#078DB9; color:#fff;">Annotazioni: </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td> </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr align="left" style="background:#E0E6E6;">
+                    <td align="center" colspan="7">Dutta Fashion S.r.l.  - Sede Legale Viale E.  Caldara, 24 - 20122 Milano </td>
+                </tr>
+
+            </table>
+
+
+        </div>
+
+    </div>
+
+    <!-- end body contener--> 
+
 </div>
-<div class="company_name company_name_2">
-    <table cellpadding="0" cellspacing="0">
-        <tr>
-            <td width="325" valign="top">Pagamento/payment</td>
-            <td align="left" width="630"><strong><?= !empty($form['payment']) ? $form['payment'] : '' ?></strong></td>
-        </tr>
-        <tr>
-            <td width="325" valign="top">Rif. DDT/document of transport nr</td>
-            <td align="left" width="630"><strong><?= !empty($form['ref_ddt_document_transport']) ? $form['ref_ddt_document_transport'] : '' ?></strong></td>
-        </tr>
-    </table>
-</div>
-<div class="company_name company_name_1 company_name_2">
-    <table cellpadding="0" cellspacing="0">
-        <tr>
-            <th width="190">Codice articolo/article code</th>
-            <th width="250">Descrizione/description</th>
-            <th width="50">Q.ta</th>
-            <th width="120">Prezzo unitario</th>
-            <th width="120">Sconto/discount</th>
-            <th width="150">Importo/Amount</th>
-            <th>Iva/Vat</th>
-        </tr>
-        <?php
-        $key = 0;
 
-        foreach ($form['item'] as $key => $item):
-            ?>
-            <tr>
-                <td width="190" align="center"><?= !empty($item['code']) ? $item['code'] : '' ?> </td>
-                <td width="250" align="center"><?= !empty($item['description']) ? $item['description'] : '' ?> </td>
-                <td  width="50" align="center"><?= !empty($item['qty']) ? $item['qty'] : '' ?> </td>
-                <td width="120" align="center"><?= !empty($item['price']) ? $item['price'] : '' ?> </td>
-                <td width="120" align="center"><?= !empty($item['discount']) ? $item['discount'] : '' ?> </td>
-                <td width="150" align="center"><?= !empty($item['amount']) ? $item['amount'] : '' ?> </td>
-                <td width="60" align="center"><?= !empty($item['vat']) ? $item['vat'] : '' ?> </td>
-            </tr>
-
-
-
-        <?php endforeach; ?>
-
-
-
-        <tr>
-            <td align="right" colspan="5"><p>Imponibile/taxable income</p>
-                <p> Imposta IVA/Vat </p>
-                TOTALE FATTURA/TOTAL INVOICE </td>
-            <td valign="bottom"><div class="total_invoice"><strong><?= !empty($form['imposta']) ? $form['imposta'] : '' ?></strong></div></td>
-            <td></td>
-        </tr>
-    </table>
-</div>
-<div class="company_name company_name_2">
-    <table cellpadding="0" cellspacing="0">
-        <tr>
-            <td width="305" valign="top">Pagamento/payment</td>
-            <td align="left" width=""><strong><?= !empty($form['deadlines_payment']) ? $form['deadlines_payment'] : '' ?></strong></td>
-            <td width="150" align="right" valign="top"> Terms of payment</td>
-        </tr>
-    </table>
-</div>
-</div>

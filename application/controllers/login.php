@@ -25,7 +25,7 @@ class Login extends CI_Controller {
 
             if (is_array($user) && $user !== FALSE) {
                 $this->session->set_userdata('logged_in', $user);
-                redirect(site_url('invoice'));
+                redirect(site_url('fattura_invoice'));
             }
 
             $data['info'] = 'error';

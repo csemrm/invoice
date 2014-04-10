@@ -1,5 +1,5 @@
 <?php $this->load->view('_blocks/header') ?>
-<!--div> <a href="<?= site_url('invoice/printview/' . $form['id']) ?>">Print</a></div-->
+<div> <a href="<?= site_url('invoice/printview/' . $form['id']) ?>">Print</a></div>
 <div class="company_name company_name_2">
     <table cellpadding="0" cellspacing="0">
         <tr>

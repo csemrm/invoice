@@ -11,6 +11,7 @@ class Invoice extends Secure_Controller {
         $this->_CI = & get_instance();
         $this->load->model(array('login_model', 'invoice_model'));
         $this->load->library('session');
+         redirect(site_url('fattura_invoice'));
     }
 
     public function index() {
